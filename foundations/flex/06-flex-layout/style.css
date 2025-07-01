@@ -5,10 +5,58 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-img {
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: ;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+
+button {
+  padding: 10px;
+}
+
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 10px;
+}
+
+.footer ul,
+.header ul {
+  list-style-type: none;
+  padding: 16px;
+  margin: 0;
+}
+
+.footer a,
+.header a {
+  text-decoration: none;
+  color: gray;
+}
+
+img {˚
   width: 600px;
+}
+
+.footer {
+  background-color: #eee;
 }
 
 button {
