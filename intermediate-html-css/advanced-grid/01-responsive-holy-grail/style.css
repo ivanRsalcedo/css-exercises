@@ -9,6 +9,10 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 1fr 5fr 1fr;
+  gap: 10px;
 }
 
 .container div {
@@ -19,6 +23,7 @@ html {
   color: white;
   border-radius: 15px;
 }
+
 
 .header {
   background-color: #006157;
